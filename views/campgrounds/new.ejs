@@ -1,0 +1,33 @@
+ <%- include("../partials/header")%>
+
+ <link rel="stylesheet" href="/stylesheets/previewImage.css">
+ <div class="container">
+ <div class="row"> 
+ <h1 style="text-align: center;" >Create a New Campground</h1>
+ <div class="design-form">
+ <form action="/campgrounds" enctype="multipart/form-data" method="POST">
+ <div class="form-group">
+     <input  class="form-control" type="text" name="name" placeholder="name">
+     </div>
+     <div class="form-group">
+     <input class="form-control" type="file" id="inpFile" name="myImage" accept="image/*">
+     </div>
+     <div class="imagePreview" id="image_preview">
+     <img src="" alt="image preview" class="image_preview__default">
+     <span class="image_preview__text">Image Preview</span>
+     </div>
+     <div class="form-group">
+     <input class="form-control" type="text" name="description" placeholder="description">
+     </div>
+     <div class="form-group">
+     <input class="btn btn-lg btn-primary btn-block" type="submit" value="Submit">
+     </div>
+ </form>
+ <a href="/campgrounds">Back</a>
+</div>
+
+
+</div>
+</div>
+<script type="text/javascript" src="/scripts/previewImage.js"></script>
+ <%- include("../partials/footer")%>

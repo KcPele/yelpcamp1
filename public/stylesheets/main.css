@@ -1,0 +1,55 @@
+body{
+    min-height: 100%;
+}
+.tbumbnail img {
+    width: 100%;
+
+}
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.backImage{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+}
+
+#delete-form{
+    display: inline;
+}
+
+.design-form{
+    width: 40%; 
+    margin: 25px auto;
+}
+
+.container .alert{
+    margin-bottom: 0;
+}
+
+
+ 
+.footer-links{
+    clear: both;
+    position: relative;
+    height: 200px;
+   
+    text-align: center;
+        
+    }
+li.list {
+        margin-right: 25px;
+        display: inline-block;
+    }
+    .footer{
+      background-color: aliceblue;
+    }
+    
